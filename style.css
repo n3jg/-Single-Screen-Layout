@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Bold.woff") format("woff"), 
+         url("../fonts/OpenSans-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.woff") format("woff"), 
+         url("../fonts/OpenSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;  
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    padding: 0 57px;
+    margin: 0 auto;
+}
+
+.reset {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    background-color: #FFF6ED;
+    margin: 0;
+    padding: 0;
+}
+
+.social__network {
+    margin: 0;
+    padding: 0;
+} 
+
+.title {
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.wrapper__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 42px;
+}
+
+.wrapper__block:last-child {
+    margin-right: 0;
+}
+
+.wrapper__title {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 21px;
+    margin-bottom: 6px;
+    line-height: 41px;
+}
+
+.wrapper__text-color {
+    color: #FF7A00;
+}
+
+.wrapper__text {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.banner {
+    display: flex;  
+}
+
+.banner__block-1 {
+    max-width: 592px;
+    margin-right: 71px;
+}
+
+.banner__block-2 {
+   background-image: url(./Ellipse.svg);
+   background-repeat: no-repeat;
+   height: 275px;  
+}
+
+.banner__title {
+    color: #000000;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+/* svg */
+
+.picture {
+    display: block;
+    width: 375px;
+    height: 288px;
+}
+
+.picture-fon {
+    width: 550px;
+    height: 275px;
+}
+
+.banner__icons {
+    margin-top: 60px;
+}
+
+.banner__icons-1 {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 112px;   
+}
+
+.banner__icons-2 {
+    display: flex;
+    margin-left: 182px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 90px; 
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
